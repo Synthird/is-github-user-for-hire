@@ -1,0 +1,26 @@
+{
+	"name": "is-github-user-for-hire",
+	"version": "1.0.0",
+	"description": "A site for checking if a GitHub user has their \"Available for hire\" setting on.",
+	"main": "server.js",
+	"type": "module",
+	"scripts": {
+		"start": "node server.js",
+		"dev": "node --env-file=.env server.js"
+	},
+	"keywords": [],
+	"author": "Synthird",
+	"license": "GPL-3.0-only",
+	"dependencies": {
+		"express": "^5.1.0",
+		"octokit": "^5.0.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Synthird/is-github-user-for-hire.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Synthird/is-github-user-for-hire/issues"
+	},
+	"homepage": "https://github.com/Synthird/is-github-user-for-hire#readme"
+}

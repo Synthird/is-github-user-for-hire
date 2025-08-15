@@ -1,0 +1,72 @@
+body {
+	background-color: rgb(22, 23, 24);
+	font-family: sans-serif;
+	font-size: x-large;
+	text-align: center;
+}
+
+body, button, input {
+	color: rgb(233, 233, 233);
+}
+
+input, button {
+	font-size: large;
+	border-radius: 0.2em;
+	border: 2px solid rgb(99, 99, 104);
+}
+
+input {
+	background-color: rgb(50, 51, 55);
+}
+
+img {
+	max-block-size: 7em;
+	border-radius: 100%;
+}
+
+main {
+	display: grid;
+	place-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	box-shadow: 1em 1em;
+}
+
+.user-info {
+	visibility: hidden;
+	margin-top: 1em;
+}
+
+button {
+	background-color: rgb(77, 78, 82);
+}
+
+button:hover {
+	background-color: rgb(106, 110, 114);
+}
+
+button:active {
+	background-color: rgb(67, 68, 71);
+}
+
+div:has(> label) {
+	margin-bottom: 0.3em;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(127, 177, 243);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.not-a-user-notice {
+	visibility: hidden;
+	color: rgb(249, 115, 115);
+	margin-top: 1em;
+}

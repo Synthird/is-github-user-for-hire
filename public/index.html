@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="application-name" content="Is GitHub user for hire">
+	<meta name="author" content="Synthird">
+	<meta name="description" content="See if a GitHub user has their available for hire setting turned on.">
+	<meta name="keywords" content="GitHub, for hire, user, work">
+	<link rel="stylesheet" href="styles/main.css">
+	<title>Is GitHub user for hire</title>
+</head>
+
+<body>
+	<main>
+		<h1>Is GitHub user for hire</h1>
+
+		<div>
+			<label for="username">Type in a username</label>
+		</div>
+
+		<div>
+			<input type="text" id="username" placeholder="Username" autofocus>
+			<button>Available for hire?</button>
+		</div>
+
+		<div class="user-info">
+			<div>
+				<img src="https://avatars.githubusercontent.com/u/105394020?v=4" alt="Profile picture.">
+			</div>
+
+			<div>
+				<p>Has available for hire turned on: <strong></strong></p>
+				<a href="https://github.com" target="_blank">View profile</a>
+			</div>
+		</div>
+
+		<div class="not-a-user-notice">
+			<p>Cannot find a user with that username!</p>
+		</div>
+
+		<div>
+			<a href="https://github.com/Synthird/is-github-user-for-hire" target="_blank">Source code</a>
+		</div>
+	</main>
+
+	<script src="scripts/index.js"></script>
+</body>
+
+</html>
