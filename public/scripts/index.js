@@ -5,7 +5,7 @@ const usernameInput = document.getElementById("username"),
 
 	hireable = document.querySelector("strong"),
 	profilePicture = document.querySelector("img"),
-	link = document.querySelector("a");
+	link = document.getElementById("profile-link");
 
 function isForHire() {
 	const username = usernameInput.value;
