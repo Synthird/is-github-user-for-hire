@@ -1,6 +1,6 @@
 # Is GitHub user available for hire
 
-A site for checking if a GitHub user has their "Available for hire" setting on.
+A site for checking if a GitHub user has their [Available for hire](https://docs.github.com/en/account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/about-available-for-hire) setting on.
 
 ## Built with
 
