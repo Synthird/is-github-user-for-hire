@@ -20,6 +20,10 @@ export async function isForHire(req, res) {
 			hireable: profile.hireable
 		});
 	} catch (error) {
-		res.status(404).json({ message: "Cannot find user" });
+		if (error.response) {
+			res.status(error.response.status).json({ message: error.response.data.message });
+		} else {
+			console.log(error);
+		}
 	}
 }
