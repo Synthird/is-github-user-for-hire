@@ -7,6 +7,7 @@ A site for checking if a GitHub user has their [Available for hire](https://docs
 - [Express.js](https://expressjs.com/)
 - [Node.js](https://nodejs.org/en)
 - [Octokit.js](https://github.com/octokit/octokit.js/)
+- [Vercel](https://vercel.com/)
 
 ## License
 
