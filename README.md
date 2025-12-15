@@ -12,3 +12,7 @@ A site for checking if a GitHub user has their [Available for hire](https://docs
 ## License
 
 This repository contains the AGPL version 3 license. You must give credit if you want to use its source code, and open source your project under the same license.
+
+## Archival
+
+This repository is no longer being maintained. You still must give credit and open source your project when using the source code of this repository under the same license even if it is archived.
